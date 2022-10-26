@@ -1,0 +1,17 @@
+# Git
+.git
+.gitignore
+
+# Docker
+.docker
+
+# Python
+django_firebase_auth/__pycache__/
+django_firebase_auth/*/__pycache__/
+django_firebase_auth/*/*/__pycache__/
+django_firebase_auth/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
+
+*.json
