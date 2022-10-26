@@ -28,7 +28,7 @@
 </ol>
 <br><hr>
 <ol type="1"><p style="color: green">Algorithm to test all the possibilities of this project</p>
-    <li>Use "git clone" for this repo</li>
+    <li>Use "git clone" for this repo, then fill firebase_service_account_creds.json and firebase_app_creds.json with your credentials from firebase console</li>
     <li>Run command "docker-compose build --no-cache && docker-compose up" from the directory with Dockerfile and docker-compose.yml</li>
     <li>Go to http://0.0.0.0:8000/</li>
     <li>Use route "/auth/get_token/" and pass email 'admin@example.com' and password '1mytestuser!'. Copy the firebase token from response.</li>
